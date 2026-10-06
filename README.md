@@ -62,7 +62,7 @@ The dashboard covers:
 
 ## Report
 
-The full analysis, findings, and recommendations are available in the [final report](docs/report.pdf).
+The full analysis, findings, and recommendations are available in the [final report](docs/Report.pdf).
 
 
 ## Dataset
