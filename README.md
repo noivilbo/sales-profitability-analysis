@@ -1,27 +1,128 @@
-# Sales & Profitability Analysis
+\# Sales \& Profitability Analysis
 
-A sales analysis looking at **sales, profit, regions, product categories, and discounts**.
 
-I used Python for data quality, PostgreSQL for the analysis, and Power BI Desktop to build the final dashboard.
 
-## Tools
+This project looks at sales and profitability throughout the year, focusing on monthly performance, regions, product categories, and discounts.
 
-* Python
-* PostgreSQL
-* Power BI Desktop
 
-## Key Findings
 
-* **$2.43M in sales** and **$308K in profit**, with a **12.7% profit margin**.
-* **West** had the highest regional margin at **15%**.
-* **Central** had the lowest regional margin at **8%**.
-* **Furniture** had the lowest category margin at just **3%**.
-* Higher discounts were generally linked to lower margins in some weaker-performing segments.
+The main goal was to understand where the business performs well, where margins are weaker, and whether higher discounts are associated with lower profitability.
 
-## Dashboard
 
-The dashboard was built in **Power BI Desktop** and includes views of sales, profit, margins, regions, categories, and discounts.
 
-## Dataset
+\## Tools
 
-Data from the [Superstore Sales Dataset on Kaggle](https://www.kaggle.com/datasets/himanshuuike/superstore-sales-dataset/data), released under [CC0: Public Domain](https://creativecommons.org/publicdomain/zero/1.0/).
+
+
+\* \*\*Python\*\* — data quality and preparation
+
+\* \*\*PostgreSQL\*\* — data analysis
+
+\* \*\*Power BI Desktop\*\* — dashboard and visualization
+
+
+
+\## What I did
+
+
+
+I started by checking and preparing the data in Python. This included looking at missing values, duplicates, data types, and date fields that needed to be converted from strings to datetime.
+
+
+
+I then used PostgreSQL to explore sales, profit, margins, regions, categories, and discounts.
+
+
+
+The results was then put together in a Power BI dashboard.
+
+
+
+\## Dashboard
+
+
+
+!\[Sales \& Profitability Dashboard](images/dashboard\_overview.png)
+
+
+
+The dashboard covers:
+
+
+
+\* Monthly performance
+
+\* Regional performance
+
+\* Category performance
+
+\* Discounts and profitability
+
+
+
+\## Key Findings
+
+
+
+\* \*\*West\*\* had the strongest regional performance, with a 15% profit margin.
+
+\* \*\*Furniture\*\* had the lowest category margin at 3%.
+
+\* \*\*Central\*\* had the lowest regional margin at 8%.
+
+\* Higher discounts were associated with lower margins in some weaker-performing segments.
+
+
+
+\## Report
+
+
+
+The full analysis, findings, and recommendations are available in the final report.
+
+
+
+\## Dataset
+
+
+
+The project uses the \[Superstore Sales Dataset](https://www.kaggle.com/datasets/himanshuuike/superstore-sales-dataset) from Kaggle.
+
+
+
+The dataset is published under the \*\*CC0: Public Domain\*\* license.
+
+
+
+\## Project Structure
+
+
+
+```text
+
+sales-profitability-analysis/
+
+├── data/
+
+│   ├── raw/
+
+│   └── processed/
+
+├── notebooks/
+
+├── sql/
+
+├── powerbi/
+
+├── docs/
+
+├── images/
+
+├── README.md
+
+└── requirements.txt
+
+```
+
+
+
