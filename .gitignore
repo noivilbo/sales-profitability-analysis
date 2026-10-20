@@ -1,0 +1,12 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Data Layers 
+data/raw/
+*.csv
+
+# Power BI Local Cache
+*.bak
