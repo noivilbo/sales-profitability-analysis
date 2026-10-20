@@ -69,6 +69,7 @@ The dataset is published under the **CC0: Public Domain license.**
 
 ## Project Structure
 
+```text
 sales-profitability-analysis/
 ├── data/
 │   ├── raw/
@@ -91,3 +92,4 @@ sales-profitability-analysis/
 ├── LICENSE
 ├── README.md
 └── requirements.txt
+```
