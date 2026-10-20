@@ -64,7 +64,7 @@ The full analysis, findings, and recommendations are available in the [Final Rep
 
 ## Dataset
 
-The project uses the [Superstore Sales Dataset on Kaggle](https://www.kaggle.com/datasets/himanshuuike/samplesuperstore)
+The project uses the [Superstore Sales Dataset on Kaggle](https://www.kaggle.com/datasets/himanshuuike/superstore-sales-dataset/data)
 The dataset is published under the **CC0: Public Domain license.**
 
 ## Project Structure
