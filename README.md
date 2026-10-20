@@ -84,7 +84,7 @@ sales-profitability-analysis/
 │   └── 03_view.sql
 ├── powerbi/
 ├── docs/
-│   ├── Report.pdf
+│   ├── Report.md
 │   └── dashboard_report.pdf
 ├── images/
 │   └── overview.png
