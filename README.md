@@ -14,8 +14,8 @@ An end-to-end analytics project evaluating commercial performance across 2023–
 ## Tools & Tech Stack
 
 - **Python (Pandas, NumPy)** — Data quality assessment, anomaly detection, postal code standardization, and datetime validation.
-- **PostgreSQL** — Schema design, CTEs and window functions (LAG) for year-over-year and profitability analysis.
-- **Power BI Desktop** — Executive dashboarding and interactive reporting.
+- **PostgreSQL** — Schema design, SQL views serving the Power BI dashboard, and analytical queries with CTEs and window functions (LAG) for year-over-year and profitability analysis.
+- **Power BI Desktop** — Interactive dashboards connected directly to PostgreSQL through the native connector, with filtering by period, region, category and discount tier.
 
 ## Methodology & Data Quality
 
