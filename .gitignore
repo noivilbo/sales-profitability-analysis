@@ -1,15 +1,25 @@
-# Python & Virtual Environments
+# Python / Virtual Environments
 __pycache__/
 *.py[cod]
+*$py.class
 venv/
+env/
 .env
 
-# Only results for quick checks
-!sql/results/
+# IDEs & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
 
-# Data Layers 
+# Data Layers
 data/raw/
-*.csv
+data/processed/
 
-# Power BI Local Cache
+# Power BI Local Cache & Backups
 *.bak
+*.user
+
+# SQL Results: Ignore general CSVs globally, but explicitly allow sql/results tracking
+*.csv
+!sql/results/*.csv

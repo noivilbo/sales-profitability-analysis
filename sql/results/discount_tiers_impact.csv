@@ -1,0 +1,4 @@
+"discount_tier","total_transactions","total_sales","total_profit","profit_margin_pct"
+"0% (No Discount)",4925,1105323.790,326718.5872,29.56
+"Low (up to 20%)",3854,856450.417,101598.9132,11.86
+"High (> 20%)",1415,364760.154,-136020.6858,-37.29

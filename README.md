@@ -29,7 +29,7 @@ During the data preparation phase in Python, several data integrity issues were 
 
 ![Sales & Profitability Dashboard](images/overview.png)
 
-(For a complete view of all report pages and cross-filtering capabilities, please check the exported PDF report in [Dashboard Report](docs/dashboard_report.pdf) or review the [Power BI file](powerbi/sales_analysis.pbix)).
+(For a complete view of all report pages and cross-filtering capabilities, please check the exported PDF report in [Dashboard Report](docs/dashboard_report.pdf) or review the [Power BI file](powerbi/superstore_sales_analysis.pbix)).
 
 The dashboard covers:
 - Year-over-Year temporal trajectory and monthly performance
@@ -86,6 +86,8 @@ sales-profitability-analysis/
 │   ├── Report.pdf
 │   └── dashboard_report.pdf
 ├── images/
+│   └── overview.png
 ├── .gitignore
+├── LICENSE
 ├── README.md
 └── requirements.txt
