@@ -89,3 +89,4 @@ SELECT
     COUNT(DISTINCT order_id) AS total_orders,
     SUM(profit) / NULLIF(SUM(sales), 0) AS profit_margin
 FROM main
+GROUP BY region;
