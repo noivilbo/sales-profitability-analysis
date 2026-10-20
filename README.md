@@ -1,20 +1,20 @@
 # Sales & Profitability Analysis
 
-An end-to-end data engineering and analytics project evaluating commercial performance across 2023–2026, focusing on granular loss drivers, regional disparities, and the financial impact of aggressive discounting strategies.
+An end-to-end analytics project evaluating commercial performance across 2023–2026, focusing on granular loss drivers, regional disparities, and the financial impact of aggressive discounting strategies.
 
 ## Executive Summary & Key KPIs
 
 | Metric | Value | Context / Benchmark |
 | :--- | :--- | :--- |
-| **Total Sales** | $2.28M | Consistent upward trajectory from 2023 to 2026 |
+| **Total Sales** | $2.28M | Consistent upward trajectory from 2023 to 2026, with retraction in 2024 |
 | **Total Profit** | $284K | Net profitability impacted by high discount outliers |
 | **Overall Profit Margin** | ~12.5% | Stabilized around 13% post-2024 recovery |
 | **Total Transactions** | 10,194 | Cleaned and validated records |
 
 ## Tools & Tech Stack
 
-- **Python (Pandas, NumPy)** — Data quality assessment, anomaly detection, postal code standardization, and strict datetime validation.
-- **PostgreSQL** — Advanced DDL, schema modeling, CTEs, and Window Functions (LAG) for deep analytical depth.
+- **Python (Pandas, NumPy)** — Data quality assessment, anomaly detection, postal code standardization, and datetime validation.
+- **PostgreSQL** — Schema design, CTEs and window functions (LAG) for year-over-year and profitability analysis.
 - **Power BI Desktop** — Executive dashboarding and interactive reporting.
 
 ## Methodology & Data Quality
@@ -39,7 +39,7 @@ The dashboard covers:
 
 ## Key Findings & Business Insights
 
-Our advanced SQL exploration and annual trend analysis uncovered critical business drivers that go beyond basic summaries:
+SQL exploration and annual trend analysis uncovered critical business drivers that go beyond basic summaries:
 
 - **Granular Loss Drivers in Furniture & Supplies:** While the Furniture category exhibits a weak overall margin (2.6%), a deep sub-category drill-down exposes the exact root causes: Tables (−8.5%), Bookcases (−3.2%), and Supplies (−2.5%) operate at a net loss, dragging down overall profitability.
 - **The True Cost of Aggressive Discounting:** Discount strategy is tightly correlated with margin erosion. Orders with 0% discount yield a healthy 29.6% profit margin, whereas discounts above 20% result in a collective net loss of ~-$136,000 across 1,415 transactions.
