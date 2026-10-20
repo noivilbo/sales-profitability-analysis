@@ -60,7 +60,7 @@ SQL exploration and annual trend analysis uncovered critical business drivers th
 
 ## Report
 
-The full analysis, findings, and recommendations are available in the [Final Report PDF](docs/Report.pdf).
+The full analysis, findings, and recommendations are available in the [Final Report ](docs/Report.md).
 
 ## Dataset
 
