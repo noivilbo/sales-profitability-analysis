@@ -51,3 +51,4 @@ SELECT
 FROM main
 GROUP BY product_name
 HAVING SUM(profit) < 0
+ORDER BY total_profit ASC;
