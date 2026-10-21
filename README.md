@@ -2,6 +2,8 @@
 
 An end-to-end analytics project evaluating commercial performance across 2023–2026, focusing on granular loss drivers, regional disparities, and the financial impact of aggressive discounting strategies.
 
+![Key findings: discounts above 20% generated a $136K net loss](images/key_findings.png)
+
 ## Executive Summary & Key KPIs
 
 | Metric | Value | Context |
